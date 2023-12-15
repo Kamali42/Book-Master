@@ -209,7 +209,7 @@ nav #check:checked ~ iframe{
 }
 @keyframes head {
     from{
-        transform:translateX(-99px) ;
+        transform:translateX(99px) ;
     }
     to{
         transform: translateX(0px);
