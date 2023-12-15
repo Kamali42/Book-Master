@@ -204,13 +204,12 @@ nav #check:checked ~ iframe{
 }
 .content h1{
     animation-name: head;
-    animation-duration: 3s;
-    animation-iteration-count: 1;
+    animation-duration: 2s;
     padding: 10px 0;
 }
 @keyframes head {
     from{
-        transform: translateX(20px);
+        transform: rotate(30deg);
     }
     to{
         transform: translateX(0);
