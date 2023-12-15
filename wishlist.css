@@ -185,12 +185,12 @@ nav #check:checked ~ iframe{
     padding-bottom: 20px;
 }
 .Adult1{
-    width: 200px;
+    width: 240px;
     box-shadow: 0 7px 9px 0 rgba(0, 0, 0, 0.2), 0 8px 30px 0 rgba(0, 0, 0, 0.19);
     line-height: 25px;
 }
 .cardAdult .Adult1 img{
-    width: 200px;
+    width: 240px;
     height: 200px;
 } 
 .cardAdult .Adult1 h3{
@@ -210,8 +210,9 @@ nav #check:checked ~ iframe{
     border-radius: 5px;
 }
 .cardAdult .Adult1>header main i{
-    padding-top:10px;
+    padding-top:12px;
     color: red;
+    font-size: 20px;
 }
 .cardAdult .Adult1>header main button:hover{
     color: white;

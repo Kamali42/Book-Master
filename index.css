@@ -465,7 +465,8 @@ nav #check:checked ~ iframe{
     }
     .cardKids{
         display: flex;
-        gap: 10px;
+        gap: 20px;
+        column-gap: 30px;
         justify-content:space-evenly;
         align-items: center;
         flex-wrap: wrap;
@@ -473,19 +474,19 @@ nav #check:checked ~ iframe{
         padding-bottom: 20px;
     }
     .kid1{
-        width: 200px;
+        width: 240px;
         box-shadow: 0 7px 9px 0 rgba(0, 0, 0, 0.2), 0 8px 30px 0 rgba(0, 0, 0, 0.19);
         line-height: 25px;
     }
     .cardKids .kid1 img{
-        width: 220px;
+        width: 240px;
         height: 200px;
     } 
     .cardKids .kid1 h3{
         font-size: 16px;
     }
     .cardKids .kid1>header{
-        padding: 10px;
+        padding: 16px;
     }
     .cardKids .kid1>header main{
         display: flex;
@@ -498,7 +499,8 @@ nav #check:checked ~ iframe{
         border-radius: 5px;
     }
     .cardKids .kid1>header main i{
-        padding-top:10px ;
+        padding-top:10px;
+        font-size: 20px;
     }
     .cardKids .kid1>header main i:hover{
         color: red;
@@ -523,7 +525,8 @@ nav #check:checked ~ iframe{
     }
     .cardAdult{
         display: flex;
-        gap: 10px;
+        gap: 20px;
+        column-gap: 30px;
         justify-content:space-evenly;
         align-items: center;
         flex-wrap: wrap;
@@ -531,19 +534,21 @@ nav #check:checked ~ iframe{
         padding-bottom: 20px;
     }
     .Adult1{
-        width: 200px;
+        width: 240px;
         box-shadow: 0 7px 9px 0 rgba(0, 0, 0, 0.2), 0 8px 30px 0 rgba(0, 0, 0, 0.19);
         line-height: 25px;
+        border-top-left-radius: 10px;
     }
     .cardAdult .Adult1 img{
-        width: 200px;
+        width: 240px;
         height: 200px;
+        border-top-left-radius: 10px;
     } 
     .cardAdult .Adult1 h3{
         font-size: 16px;
     }
     .cardAdult .Adult1>header{
-        padding: 10px;
+        padding: 16px;
     }
     .cardAdult .Adult1>header main{
         display: flex;
@@ -556,7 +561,8 @@ nav #check:checked ~ iframe{
         border-radius: 5px;
     }
     .cardAdult .Adult1>header main i{
-        padding-top:10px ;
+        padding-top:10px;
+        font-size: 20px;
     }
     .cardAdult .Adult1>header main i:hover{
         color: red;
@@ -564,7 +570,7 @@ nav #check:checked ~ iframe{
     .cardAdult .Adult1>header main button:hover{
         color: white;
         background-color: black;
-        transform: scale(1.1,1.1);
+        transform: scale(1.1,1);
     } 
     .cardAdult .Adult1:hover img{
         transform: scale(0.9,0.9);
