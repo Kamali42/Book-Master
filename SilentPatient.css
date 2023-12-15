@@ -203,7 +203,19 @@ nav #check:checked ~ iframe{
     padding-left: 10px;
 }
 .content h1{
+    animation-name: head;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
     padding: 10px 0;
+}
+@keyframes head {
+    from{
+        transform: translateX(20px);
+    }
+    to{
+        transform: translateX(0);
+    }
+    
 }
 .content h3{
     margin: 10px 0;
