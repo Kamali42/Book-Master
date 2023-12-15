@@ -212,7 +212,7 @@ nav #check:checked ~ iframe{
         transform:translateX(-70px) ;
     }
     to{
-        transform: translateX(10px);
+        transform: translateX(0px);
     }
     
 }
