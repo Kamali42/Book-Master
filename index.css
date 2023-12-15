@@ -281,7 +281,7 @@ nav input:checked ~ main{
     line-height: 35px;
     padding: 20px 0;
     padding-bottom: 30px;
-    gap: 20px;
+    gap: 40px;
 }
 .book h1{
     text-align: center;
