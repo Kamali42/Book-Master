@@ -204,7 +204,7 @@ nav #check:checked ~ iframe{
 }
 .content h1{
     animation-name: head;
-    animation-duration: 3s;
+    animation-duration: 2s;
     padding: 10px 0;
 }
 @keyframes head {
@@ -212,7 +212,7 @@ nav #check:checked ~ iframe{
         transform:translateX(-99px) ;
     }
     to{
-        transform: translateX(10px);
+        transform: translateX(0px);
     }
     
 }
